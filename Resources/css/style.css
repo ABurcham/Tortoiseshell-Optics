@@ -51,6 +51,15 @@ ul li{
 .truncated-menu{
   display: none;
 }
+@media only screen and (max-width:1100px){
+  header{
+    padding-top:0;
+    height: 22rem;
+  }
+  nav.container{
+    max-width: 100%;
+  }
+}
 /*Main Banner Section*/
 .flex{
   display: flex;
@@ -71,7 +80,16 @@ h1{
   font-weight:bold;
   margin: .67em 0;
 }
-
+@media only screen and (max-width:1100px){
+  .main-banner{
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .main-banner h1{
+    font-size: 1.33rem;
+  }
+}
 /*Supporting and Service Section*/
 .supporting{
   display:flex;
