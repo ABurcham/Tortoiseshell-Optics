@@ -6,6 +6,9 @@ html{
 body{
   line-height:1.4rem;
 }
+div{
+  display:block;
+}
 /*Header Section*/
 header{
   display:block;
@@ -86,4 +89,20 @@ h1{
 .service img.icon{
   width:3.5rem;
   margin-bottom: 1rem;
+}
+/*Info Section*/
+.info{
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+.title{
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+.info p{
+  padding: 1rem 0;
 }
